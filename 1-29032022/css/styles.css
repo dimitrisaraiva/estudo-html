@@ -17,7 +17,7 @@ img {
   width: 500px; /*lagura da imagem*/
   height: 300px; /*altuta da imagem*/
   opacity: 0.9; /*efeito de transparecia*/
-  transition: ease 2s; /*efeito de transição*/
+  transition: ease 5s; /*efeito de transição*/
 }
 img:hover {
   transform: rotate(748deg);
