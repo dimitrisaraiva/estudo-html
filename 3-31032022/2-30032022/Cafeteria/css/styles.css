@@ -102,6 +102,7 @@ h2 {
   margin: 50px;
   border-bottom: 3px solid rgb(0, 0, 0);
   text-align: center;
+  padding-bottom: 15px;
 }
 
 #home p {
@@ -129,6 +130,44 @@ h2 {
 }
 
 #imghome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+/* ---------------INICIO DA HISTORIA--------------- */
+
+#historiap {
+  width: 70%;
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imghistoria {
+  text-align: center;
+}
+
+#imghistoria img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 1;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+iframe {
+  width: 80%;
+  height: 500px;
+  margin: 20px;
+  text-align: center;
+}
+
+#imghistoria img:hover {
   transform: scale(1.2);
   opacity: 1;
 }
