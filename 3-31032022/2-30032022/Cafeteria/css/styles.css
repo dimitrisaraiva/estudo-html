@@ -175,8 +175,9 @@ iframe {
 
 h3 {
   font-family: arial;
-  font-size: 12pt;
+  font-size: 20pt;
   margin: 30px;
+  text-align: center;
 }
 
 #linha {
@@ -211,4 +212,49 @@ h3 {
   color: rgb(107, 52, 32);
   margin: 20px;
   font-weight: bold;
+}
+
+/* ---------------INICIO DO CONTATO--------------- */
+
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="telefone"],
+main form select,
+main form textarea {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-top: 1px solid silver;
+  border-radius: 10px;
+  display: block;
+  color: white;
+}
+
+main form input[type="telefone"],
+main form select {
+  width: 30%;
+}
+
+main form textarea {
+  height: 100px;
+  margin-bottom: 10px;
+}
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
 }
