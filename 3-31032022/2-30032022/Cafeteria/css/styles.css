@@ -258,3 +258,9 @@ main form input[type="submit"] {
   color: white;
   width: 100%;
 }
+
+/* ---------------INICIO DA LOCALIZAÇÃO--------------- */
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+}
